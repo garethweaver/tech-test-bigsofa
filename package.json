@@ -1,0 +1,26 @@
+{
+  "name": "techtest",
+  "version": "1.0.0",
+  "description": "Big Sofa Technical Test",
+  "scripts": {
+    "start": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garethweaver/techtest.git"
+  },
+  "author": "garethweaver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garethweaver/techtest/issues"
+  },
+  "homepage": "https://github.com/garethweaver/techtest#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-resource": "^1.5.7"
+  }
+}
