@@ -1,0 +1,282 @@
+[
+  {
+    "url": "https://api.github.com/repos/twbs/bootstrap/issues/20248",
+    "repository_url": "https://api.github.com/repos/twbs/bootstrap",
+    "labels_url": "https://api.github.com/repos/twbs/bootstrap/issues/20248/labels{/name}",
+    "comments_url": "https://api.github.com/repos/twbs/bootstrap/issues/20248/comments",
+    "events_url": "https://api.github.com/repos/twbs/bootstrap/issues/20248/events",
+    "html_url": "https://github.com/twbs/bootstrap/issues/20248",
+    "id": 164049696,
+    "number": 20248,
+    "title": "v3.3 table-responsive scroll is not working on android (chrome)",
+    "user": {
+      "login": "sprakashg",
+      "id": 6829701,
+      "avatar_url": "https://avatars.githubusercontent.com/u/6829701?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sprakashg",
+      "html_url": "https://github.com/sprakashg",
+      "followers_url": "https://api.github.com/users/sprakashg/followers",
+      "following_url": "https://api.github.com/users/sprakashg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sprakashg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sprakashg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sprakashg/subscriptions",
+      "organizations_url": "https://api.github.com/users/sprakashg/orgs",
+      "repos_url": "https://api.github.com/users/sprakashg/repos",
+      "events_url": "https://api.github.com/users/sprakashg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sprakashg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2016-07-06T10:53:50Z",
+    "updated_at": "2016-07-06T10:53:50Z",
+    "closed_at": null,
+    "body": "Hi Team,\r\nI'm using bootstrap version 3.3  for my project, looks like the horizontal scroll doesn't work on my android phone chrome browser(version: 51) when I have table-responsive above .table.\r\nI have declared it right, followed stack-overflow as well.\r\n```\r\n<div class=\"table-responsive\">\r\n<table class=\"table\">\r\n</table>\r\n</div\r\n```\r\nWhen I look at this page on my android phone(chrome browser), table is not rendered to width of 100%, more over the horizontal scroll doesn't show up at all.\r\nWhile developing (OS: Ubuntu 14.0.4), I  installed a responsive plug-in on chrome, using that I tested the page on various devices, there the horizontal scroll shows up. \r\nTweaked the code too, \r\n```\r\n@media screen and (max-width:767px) {\r\n  .table-responsive {\r\n    width: 360px !important;\r\n    margin-bottom: 15px;\r\n    overflow-y: hidden;\r\n    overflow-x: auto;\r\n    -webkit-overflow-scrolling: touch;\r\n    -ms-overflow-style: -ms-autohiding-scrollbar;\r\n    border: 1px solid #ddd;\r\n  }\r\n}\r\n@media screen and (min-width:767px) {\r\n  .table-responsive {\r\n    width: 100% !important;\r\n    margin-bottom: 15px;\r\n    overflow-y: hidden;\r\n    overflow-x: auto;\r\n    -webkit-overflow-scrolling: touch;\r\n    -ms-overflow-style: -ms-autohiding-scrollbar;\r\n    border: 1px solid #ddd;\r\n  }\r\n}\r\n```\r\nStill the scroll doesn't show up. \r\nAny help on this would be really helpful"
+  },
+  {
+    "url": "https://api.github.com/repos/twbs/bootstrap/issues/20247",
+    "repository_url": "https://api.github.com/repos/twbs/bootstrap",
+    "labels_url": "https://api.github.com/repos/twbs/bootstrap/issues/20247/labels{/name}",
+    "comments_url": "https://api.github.com/repos/twbs/bootstrap/issues/20247/comments",
+    "events_url": "https://api.github.com/repos/twbs/bootstrap/issues/20247/events",
+    "html_url": "https://github.com/twbs/bootstrap/pull/20247",
+    "id": 164031922,
+    "number": 20247,
+    "title": " input[type=\"radio\"] don't border-radius:0;",
+    "user": {
+      "login": "cloudyan",
+      "id": 912821,
+      "avatar_url": "https://avatars.githubusercontent.com/u/912821?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cloudyan",
+      "html_url": "https://github.com/cloudyan",
+      "followers_url": "https://api.github.com/users/cloudyan/followers",
+      "following_url": "https://api.github.com/users/cloudyan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cloudyan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cloudyan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cloudyan/subscriptions",
+      "organizations_url": "https://api.github.com/users/cloudyan/orgs",
+      "repos_url": "https://api.github.com/users/cloudyan/repos",
+      "events_url": "https://api.github.com/users/cloudyan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cloudyan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2016-07-06T09:12:42Z",
+    "updated_at": "2016-07-06T09:12:42Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/twbs/bootstrap/pulls/20247",
+      "html_url": "https://github.com/twbs/bootstrap/pull/20247",
+      "diff_url": "https://github.com/twbs/bootstrap/pull/20247.diff",
+      "patch_url": "https://github.com/twbs/bootstrap/pull/20247.patch"
+    },
+    "body": "in iphone has bug, input[type=\"radio\"] don't border-radius:0;"
+  },
+  {
+    "url": "https://api.github.com/repos/twbs/bootstrap/issues/20233",
+    "repository_url": "https://api.github.com/repos/twbs/bootstrap",
+    "labels_url": "https://api.github.com/repos/twbs/bootstrap/issues/20233/labels{/name}",
+    "comments_url": "https://api.github.com/repos/twbs/bootstrap/issues/20233/comments",
+    "events_url": "https://api.github.com/repos/twbs/bootstrap/issues/20233/events",
+    "html_url": "https://github.com/twbs/bootstrap/issues/20233",
+    "id": 163832251,
+    "number": 20233,
+    "title": "Add .col and .row-* classes to support flex-direction: column.",
+    "user": {
+      "login": "Kyopaxa",
+      "id": 6735053,
+      "avatar_url": "https://avatars.githubusercontent.com/u/6735053?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Kyopaxa",
+      "html_url": "https://github.com/Kyopaxa",
+      "followers_url": "https://api.github.com/users/Kyopaxa/followers",
+      "following_url": "https://api.github.com/users/Kyopaxa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Kyopaxa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Kyopaxa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Kyopaxa/subscriptions",
+      "organizations_url": "https://api.github.com/users/Kyopaxa/orgs",
+      "repos_url": "https://api.github.com/users/Kyopaxa/repos",
+      "events_url": "https://api.github.com/users/Kyopaxa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Kyopaxa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "url": "https://api.github.com/repos/twbs/bootstrap/labels/css",
+        "name": "css",
+        "color": "563d7c"
+      },
+      {
+        "url": "https://api.github.com/repos/twbs/bootstrap/labels/feature",
+        "name": "feature",
+        "color": "4bb14b"
+      },
+      {
+        "url": "https://api.github.com/repos/twbs/bootstrap/labels/v4",
+        "name": "v4",
+        "color": "563d7c"
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2016-07-05T11:47:40Z",
+    "updated_at": "2016-07-06T02:21:17Z",
+    "closed_at": null,
+    "body": "I saw there is no support for flex-direction, not being set anywhere so it uses the default value of \"row\".\r\n\r\nI suggest to add _.col_ and _.row-*_ classes to support _flex-direction: column_. Those classes would be the same as current _.row_ and _.col-*_ classes, except that _.col_ class would use flex-direction: column.\r\n\r\nSo Bootstrap 4 could have (using xs and 12 for this example):\r\n\r\n```\r\n<div class=\"row\"> <!-- uses flex-direction: row -->\r\n  <div class=\"col-xs-12\"></div>\r\n</div>\r\n\r\n<div class=\"col\"> <!-- uses flex-direction: column -->\r\n  <div class=\"row-xs-12\"></div>\r\n</div>\r\n\r\n<div class=\"row\"> <!-- nesting -->\r\n  <div class=\"col-xs-6 col\">\r\n    <div class=\"row-xs-6\"></div>\r\n    <div class=\"row-xs-6\"></div>\r\n  </div>\r\n  <div class=\"col-xs-6 col\">\r\n    <div class=\"row-xs-6\"></div>\r\n    <div class=\"row-xs-6\"></div>\r\n  </div>\r\n</div>\r\n```\r\n\r\nOf course, there should be some study about what do \"xs\", \"md\" and \"lg\" mean in the context of \"column\" layout. Media queries with screen height I suppose?\r\n\r\nCheers."
+  },
+  {
+    "url": "https://api.github.com/repos/twbs/bootstrap/issues/20225",
+    "repository_url": "https://api.github.com/repos/twbs/bootstrap",
+    "labels_url": "https://api.github.com/repos/twbs/bootstrap/issues/20225/labels{/name}",
+    "comments_url": "https://api.github.com/repos/twbs/bootstrap/issues/20225/comments",
+    "events_url": "https://api.github.com/repos/twbs/bootstrap/issues/20225/events",
+    "html_url": "https://github.com/twbs/bootstrap/pull/20225",
+    "id": 163643045,
+    "number": 20225,
+    "title": "Add some properties to the list of property order in .scss-lint.yml",
+    "user": {
+      "login": "morishitter",
+      "id": 1401513,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1401513?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/morishitter",
+      "html_url": "https://github.com/morishitter",
+      "followers_url": "https://api.github.com/users/morishitter/followers",
+      "following_url": "https://api.github.com/users/morishitter/following{/other_user}",
+      "gists_url": "https://api.github.com/users/morishitter/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/morishitter/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/morishitter/subscriptions",
+      "organizations_url": "https://api.github.com/users/morishitter/orgs",
+      "repos_url": "https://api.github.com/users/morishitter/repos",
+      "events_url": "https://api.github.com/users/morishitter/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/morishitter/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "url": "https://api.github.com/repos/twbs/bootstrap/labels/css",
+        "name": "css",
+        "color": "563d7c"
+      },
+      {
+        "url": "https://api.github.com/repos/twbs/bootstrap/labels/meta",
+        "name": "meta",
+        "color": "444444"
+      },
+      {
+        "url": "https://api.github.com/repos/twbs/bootstrap/labels/v4",
+        "name": "v4",
+        "color": "563d7c"
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2016-07-04T09:58:16Z",
+    "updated_at": "2016-07-04T17:44:32Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/twbs/bootstrap/pulls/20225",
+      "html_url": "https://github.com/twbs/bootstrap/pull/20225",
+      "diff_url": "https://github.com/twbs/bootstrap/pull/20225.diff",
+      "patch_url": "https://github.com/twbs/bootstrap/pull/20225.patch"
+    },
+    "body": ""
+  },
+  {
+    "url": "https://api.github.com/repos/twbs/bootstrap/issues/20221",
+    "repository_url": "https://api.github.com/repos/twbs/bootstrap",
+    "labels_url": "https://api.github.com/repos/twbs/bootstrap/issues/20221/labels{/name}",
+    "comments_url": "https://api.github.com/repos/twbs/bootstrap/issues/20221/comments",
+    "events_url": "https://api.github.com/repos/twbs/bootstrap/issues/20221/events",
+    "html_url": "https://github.com/twbs/bootstrap/pull/20221",
+    "id": 163527025,
+    "number": 20221,
+    "title": "background-variant button hover",
+    "user": {
+      "login": "zalog",
+      "id": 985838,
+      "avatar_url": "https://avatars.githubusercontent.com/u/985838?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zalog",
+      "html_url": "https://github.com/zalog",
+      "followers_url": "https://api.github.com/users/zalog/followers",
+      "following_url": "https://api.github.com/users/zalog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zalog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zalog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zalog/subscriptions",
+      "organizations_url": "https://api.github.com/users/zalog/orgs",
+      "repos_url": "https://api.github.com/users/zalog/repos",
+      "events_url": "https://api.github.com/users/zalog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zalog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "url": "https://api.github.com/repos/twbs/bootstrap/labels/css",
+        "name": "css",
+        "color": "563d7c"
+      },
+      {
+        "url": "https://api.github.com/repos/twbs/bootstrap/labels/v4",
+        "name": "v4",
+        "color": "563d7c"
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 5,
+    "created_at": "2016-07-02T16:57:29Z",
+    "updated_at": "2016-07-04T06:32:07Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/twbs/bootstrap/pulls/20221",
+      "html_url": "https://github.com/twbs/bootstrap/pull/20221",
+      "diff_url": "https://github.com/twbs/bootstrap/pull/20221.diff",
+      "patch_url": "https://github.com/twbs/bootstrap/pull/20221.patch"
+    },
+    "body": ""
+  }
+]

@@ -1,5 +1,17 @@
 # Big Sofa Angular Technical Test
 
+This Angular 1.0 app fetches JSON from the a Github API using the angular resource service. It displays a list of the last 5 open issues on the bootstrap repository along with the avatars of the github users who opened them.
+
+Required languages:
+
+* HTML
+* CSS
+* JS
+* Angular 1.0
+
+**Please download the repo rather than forking it.**
+
+
 ## Demo
 
 Here's a [demo of how the app works](https://gfycat.com/FittingLimpJunco).
