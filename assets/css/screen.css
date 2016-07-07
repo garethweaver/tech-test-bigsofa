@@ -6,3 +6,55 @@ body {
   background:#efefef;
   margin:0;
 }
+
+a{
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #4f9bdc;
+}
+
+.app{
+  margin: 1em 0;
+  overflow: hidden;
+  box-shadow: 0 1.5px 4px rgba(0,0,0,0.12),0 1.5px 6px rgba(0,0,0,0.06);
+  border-radius: 4px;
+}
+
+.app__header{
+  padding: 1em 2em 2em;
+  background: #4f9bdc;
+  color: #fff;
+  text-align: center;
+}
+
+.app__button{
+  border: none;
+  background: #fff;
+  padding: 2em;
+}
+
+.app__list{
+  overflow: hidden;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.app__list__panel{
+  display: flex;
+  background: #fff;
+  padding: 2em 4em;
+  list-style: none;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.app__list__panel__title{
+  font-size: 1em;
+  margin-top: 0;
+}
+
+.app__list__panel__img{
+  border-radius: 50%;
+  margin-right: 2em;
+  height: 4em;
+  width: 4em;
+}
