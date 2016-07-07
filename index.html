@@ -1,12 +1,28 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Big Sofa Tech Test</title>
+    <title>Big Sofa Tech Test - Rob Gilbert 070716</title>
     <link href="/assets/css/screen.css" rel="stylesheet" type="text/css" />
     <script src="/node_modules/angular/angular.js"></script>
     <script src="/bundle.js"></script>
-   </head>
-  <body>
-    hi :)
+  </head>
+  <body ng-app="app">
+    <main ng-controller="MainController" class="container">
+      <section class="app">
+        <header class="app__header">
+          <h1>Bootstrap issues list</h1>
+        </header>
+        <button ng-hide="revealButton" ng-click="revealIssues()" type="button" name="revealButton" class="app__button col-xs-12">Fetch the issues</button>
+        <ul ng-show="issueList" class="app__list">
+         <li ng-repeat="issue in issues" class="app__list__panel col-xs-12">
+           <img ng-src="{{ issue.user.avatar_url}}" alt="Avatar for gitHub user {{ issue.user.login }}" class="app__list__panel__img"/>
+           <div class="app__list__panel__caption">
+             <h2 class="app__list__panel__title">Title:</h2>
+             <a href="{{ issue.html_url }}">{{ issue.title }}</a>
+           </div>
+         </li>
+      </section>
+    </main>
   </body>
 </html>
